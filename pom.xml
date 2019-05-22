@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
 
-    <groupId>com.sensetime.fis</groupId>
+    <groupId>com..fis</groupId>
     <artifactId>senseguard-oauth2-starter</artifactId>
     <version>1.1.0-SNAPSHOT</version>
     <name>senseguard-oauth2-starter</name>
@@ -71,28 +71,5 @@
 
         </plugins>
     </build>
-
-    <!-- maven私库地址 -->
-    <repositories>
-        <repository>
-            <id>shsensetime</id>
-            <name>shsensetime Repository</name>
-            <url>http://mvn.sh.sensetime.com:8081/repository/maven-public/</url>
-        </repository>
-    </repositories>
-
-    <!-- 项目发布配置 -->
-    <distributionManagement>
-        <repository>
-            <id>releases</id>
-            <name>Nexus Release Repository</name>
-            <url>http://mvn.sh.sensetime.com:8081/repository/maven-releases/</url>
-        </repository>
-        <snapshotRepository>
-            <id>snapshots</id>
-            <name>Nexus Snapshot Repository</name>
-            <url>http://mvn.sh.sensetime.com:8081/repository/maven-snapshots/</url>
-        </snapshotRepository>
-    </distributionManagement>
 
 </project>
